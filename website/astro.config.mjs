@@ -55,7 +55,11 @@ export default defineConfig({
           label: 'Home',
           link: '/',
           translations: {
+            'es-ES': 'Inicio',
+            'ja-JP': 'ホーム',
             'ko-KR': '홈',
+            'pt-BR': 'Início',
+            'zh-CN': '首页',
           },
         },
         {
@@ -84,7 +88,11 @@ export default defineConfig({
               label: 'GitHub Copilot app',
               collapsed: true,
               translations: {
+                'es-ES': 'Aplicación GitHub Copilot',
+                'ja-JP': 'GitHub Copilot app',
                 'ko-KR': 'GitHub Copilot 앱',
+                'pt-BR': 'Aplicativo GitHub Copilot',
+                'zh-CN': 'GitHub Copilot app',
               },
               items: [
                 {
@@ -257,6 +265,13 @@ export default defineConfig({
             {
               label: 'GitHub Copilot CLI',
               collapsed: true,
+              translations: {
+                'es-ES': 'GitHub Copilot CLI',
+                'ja-JP': 'GitHub Copilot CLI',
+                'ko-KR': 'GitHub Copilot CLI',
+                'pt-BR': 'CLI do GitHub Copilot',
+                'zh-CN': 'GitHub Copilot CLI',
+              },
               items: [
                 {
                   label: 'Overview',
@@ -395,6 +410,13 @@ export default defineConfig({
             {
               label: 'Visual Studio Code',
               collapsed: true,
+              translations: {
+                'es-ES': 'Visual Studio Code',
+                'ja-JP': 'Visual Studio Code',
+                'ko-KR': 'Visual Studio Code',
+                'pt-BR': 'Visual Studio Code',
+                'zh-CN': 'Visual Studio Code',
+              },
               items: [
                 {
                   label: 'Overview',
@@ -536,105 +558,165 @@ export default defineConfig({
           label: 'Real-world development',
           collapsed: true,
           translations: {
+            'es-ES': 'Desarrollo en entornos reales',
+            'ja-JP': '実践的な開発',
             'ko-KR': '실제 개발',
+            'pt-BR': 'Desenvolvimento no mundo real',
+            'zh-CN': '真实场景开发',
           },
           items: [
             {
               label: 'Overview',
               link: '/real-world-development/',
               translations: {
+                'es-ES': 'Descripción general',
+                'ja-JP': '概要',
                 'ko-KR': '개요',
+                'pt-BR': 'Visão geral',
+                'zh-CN': '概述',
               },
             },
             {
               label: 'GitHub Copilot CLI',
               collapsed: true,
               translations: {
+                'es-ES': 'GitHub Copilot CLI',
+                'ja-JP': 'GitHub Copilot CLI',
                 'ko-KR': 'GitHub Copilot CLI',
+                'pt-BR': 'CLI do GitHub Copilot',
+                'zh-CN': 'GitHub Copilot CLI',
               },
               items: [
                 {
                   label: 'Overview',
                   link: '/real-world-development/cli/',
                   translations: {
+                    'es-ES': 'Descripción general',
+                    'ja-JP': '概要',
                     'ko-KR': '개요',
+                    'pt-BR': 'Visão geral',
+                    'zh-CN': '概述',
                   },
                 },
                 {
                   label: '0. Prerequisites',
                   link: '/real-world-development/cli/0-prerequisites/',
                   translations: {
+                    'es-ES': '0. Requisitos previos',
+                    'ja-JP': '0. 前提条件',
                     'ko-KR': '0. 사전 준비',
+                    'pt-BR': '0. Pré-requisitos',
+                    'zh-CN': '0. 先决条件',
                   },
                 },
                 {
                   label: '1. Installing Copilot CLI',
                   link: '/real-world-development/cli/1-install-copilot-cli/',
                   translations: {
+                    'es-ES': '1. Instalar Copilot CLI',
+                    'ja-JP': '1. Copilot CLI をインストールする',
                     'ko-KR': '1. GitHub Copilot CLI 설치하기',
+                    'pt-BR': '1. Instalar o Copilot CLI',
+                    'zh-CN': '1. 安装 Copilot CLI',
                   },
                 },
                 {
                   label: '2. Add star ratings',
                   link: '/real-world-development/cli/2-add-star-rating/',
                   translations: {
+                    'es-ES': '2. Añadir valoraciones por estrellas',
+                    'ja-JP': '2. 星評価を追加する',
                     'ko-KR': '2. 빠른 성과로 별점 추가하기',
+                    'pt-BR': '2. Adicionar avaliações por estrelas',
+                    'zh-CN': '2. 添加星级评分',
                   },
                 },
                 {
                   label: '3. Agent modes: Plan and Autopilot',
                   link: '/real-world-development/cli/3-agent-modes/',
                   translations: {
+                    'es-ES': '3. Modos de agente: Plan y Autopilot',
+                    'ja-JP': '3. エージェント モード: Plan と Autopilot',
                     'ko-KR': '3. 에이전트 모드: Plan 및 Autopilot',
+                    'pt-BR': '3. Modos de agente: Plan e Autopilot',
+                    'zh-CN': '3. 智能体模式：Plan 和 Autopilot',
                   },
                 },
                 {
                   label: '4. Guiding Copilot with custom instructions',
                   link: '/real-world-development/cli/4-custom-instructions/',
                   translations: {
+                    'es-ES': '4. Guiar a Copilot con instrucciones personalizadas',
+                    'ja-JP': '4. カスタム指示で Copilot をガイドする',
                     'ko-KR': '4. 사용자 지정 지침으로 Copilot 안내하기',
+                    'pt-BR': '4. Orientar o Copilot com instruções personalizadas',
+                    'zh-CN': '4. 使用自定义指令引导 Copilot',
                   },
                 },
                 {
                   label: '5. Customize and use a quality-checks skill',
                   link: '/real-world-development/cli/5-agent-skills/',
                   translations: {
+                    'es-ES': '5. Personalizar y utilizar una habilidad quality-checks',
+                    'ja-JP': '5. quality-checks スキルをカスタマイズして使う',
                     'ko-KR': '5. quality-checks 스킬 사용자 지정 및 사용하기',
+                    'pt-BR': '5. Personalizar e usar uma skill quality-checks',
+                    'zh-CN': '5. 自定义并使用 quality-checks 技能',
                   },
                 },
                 {
                   label: '6. Validate functionality with Playwright MCP',
                   link: '/real-world-development/cli/6-mcp-playwright/',
                   translations: {
+                    'es-ES': '6. Validar la funcionalidad con MCP de Playwright',
+                    'ja-JP': '6. Playwright MCP で機能を検証する',
                     'ko-KR': '6. Playwright MCP로 기능 검증하기',
+                    'pt-BR': '6. Validar a funcionalidade com o MCP do Playwright',
+                    'zh-CN': '6. 使用 Playwright MCP 验证功能',
                   },
                 },
                 {
                   label: '7. Create and use a QA agent',
                   link: '/real-world-development/cli/7-qa-agent/',
                   translations: {
+                    'es-ES': '7. Crear y utilizar un agente de QA',
+                    'ja-JP': '7. QA エージェントを作成して使う',
                     'ko-KR': '7. QA 에이전트 만들고 사용하기',
+                    'pt-BR': '7. Criar e usar um agente de QA',
+                    'zh-CN': '7. 创建并使用 QA 智能体',
                   },
                 },
                 {
                   label: '8. Create and merge the feature PR',
                   link: '/real-world-development/cli/8-create-pull-request/',
                   translations: {
+                    'es-ES': '8. Crear y combinar la PR de la funcionalidad',
+                    'ja-JP': '8. 機能の PR を作成してマージする',
                     'ko-KR': '8. 기능 PR 만들고 병합하기',
+                    'pt-BR': '8. Criar e integrar o PR do recurso',
+                    'zh-CN': '8. 创建并合并功能 PR',
                   },
                 },
                 {
                   label: '9. Slash commands in Copilot CLI',
                   link: '/real-world-development/cli/9-cli-power-tools/',
                   translations: {
+                    'es-ES': '9. Comandos de barra en Copilot CLI',
+                    'ja-JP': '9. Copilot CLI のスラッシュ コマンド',
                     'ko-KR': '9. GitHub Copilot CLI의 슬래시 명령',
+                    'pt-BR': '9. Comandos de barra no Copilot CLI',
+                    'zh-CN': '9. Copilot CLI 中的斜杠命令',
                   },
                 },
                 {
                   label: '10. Wrap-up and next steps',
                   link: '/real-world-development/cli/10-review/',
                   translations: {
+                    'es-ES': '10. Repaso y pasos siguientes',
+                    'ja-JP': '10. まとめと次のステップ',
                     'ko-KR': '10. 마무리 및 다음 단계',
+                    'pt-BR': '10. Encerramento e próximos passos',
+                    'zh-CN': '10. 总结与后续步骤',
                   },
                 },
                 {
@@ -700,91 +782,143 @@ export default defineConfig({
               label: 'GitHub Copilot app',
               collapsed: true,
               translations: {
+                'es-ES': 'Aplicación GitHub Copilot',
+                'ja-JP': 'GitHub Copilot app',
                 'ko-KR': 'GitHub Copilot 앱',
+                'pt-BR': 'Aplicativo GitHub Copilot',
+                'zh-CN': 'GitHub Copilot app',
               },
               items: [
                 {
                   label: 'Overview',
                   link: '/real-world-development/app/',
                   translations: {
+                    'es-ES': 'Descripción general',
+                    'ja-JP': '概要',
                     'ko-KR': '개요',
+                    'pt-BR': 'Visão geral',
+                    'zh-CN': '概述',
                   },
                 },
                 {
                   label: '0. Prerequisites',
                   link: '/real-world-development/app/0-prerequisites/',
                   translations: {
+                    'es-ES': '0. Requisitos previos',
+                    'ja-JP': '0. 前提条件',
                     'ko-KR': '0. 사전 준비',
+                    'pt-BR': '0. Pré-requisitos',
+                    'zh-CN': '0. 先决条件',
                   },
                 },
                 {
                   label: '1. Install the Copilot app',
                   link: '/real-world-development/app/1-install-copilot-app/',
                   translations: {
+                    'es-ES': '1. Instalar la aplicación Copilot',
+                    'ja-JP': '1. Copilot app をインストールする',
                     'ko-KR': '1. Copilot app 설치하기',
+                    'pt-BR': '1. Instalar o aplicativo Copilot',
+                    'zh-CN': '1. 安装 Copilot app',
                   },
                 },
                 {
                   label: '2. Add star ratings',
                   link: '/real-world-development/app/2-add-star-rating/',
                   translations: {
+                    'es-ES': '2. Añadir valoraciones por estrellas',
+                    'ja-JP': '2. 星評価を追加する',
                     'ko-KR': '2. 빠른 성과로 별점 추가하기',
+                    'pt-BR': '2. Adicionar avaliações por estrelas',
+                    'zh-CN': '2. 添加星级评分',
                   },
                 },
                 {
                   label: '3. Agent modes: Plan and Autopilot',
                   link: '/real-world-development/app/3-agent-modes/',
                   translations: {
+                    'es-ES': '3. Modos de agente: Plan y Autopilot',
+                    'ja-JP': '3. エージェント モード: Plan と Autopilot',
                     'ko-KR': '3. 에이전트 모드: Plan 및 Autopilot',
+                    'pt-BR': '3. Modos de agente: Plan e Autopilot',
+                    'zh-CN': '3. 智能体模式：Plan 和 Autopilot',
                   },
                 },
                 {
                   label: '4. Guiding Copilot with custom instructions',
                   link: '/real-world-development/app/4-custom-instructions/',
                   translations: {
+                    'es-ES': '4. Guiar a Copilot con instrucciones personalizadas',
+                    'ja-JP': '4. カスタム指示で Copilot をガイドする',
                     'ko-KR': '4. 사용자 지정 지침으로 Copilot 안내하기',
+                    'pt-BR': '4. Orientar o Copilot com instruções personalizadas',
+                    'zh-CN': '4. 使用自定义指令引导 Copilot',
                   },
                 },
                 {
                   label: '5. Customize and use a quality-checks skill',
                   link: '/real-world-development/app/5-agent-skills/',
                   translations: {
+                    'es-ES': '5. Personalizar y utilizar una habilidad quality-checks',
+                    'ja-JP': '5. quality-checks スキルをカスタマイズして使う',
                     'ko-KR': '5. quality-checks 스킬 사용자 지정 및 사용하기',
+                    'pt-BR': '5. Personalizar e usar uma skill quality-checks',
+                    'zh-CN': '5. 自定义并使用 quality-checks 技能',
                   },
                 },
                 {
                   label: '6. Validate with Playwright MCP',
                   link: '/real-world-development/app/6-mcp-playwright/',
                   translations: {
+                    'es-ES': '6. Validar con MCP de Playwright',
+                    'ja-JP': '6. Playwright MCP で検証する',
                     'ko-KR': '6. Playwright MCP로 기능 검증하기',
+                    'pt-BR': '6. Validar com o MCP do Playwright',
+                    'zh-CN': '6. 使用 Playwright MCP 验证',
                   },
                 },
                 {
                   label: '7. Create and use a QA agent',
                   link: '/real-world-development/app/7-qa-agent/',
                   translations: {
+                    'es-ES': '7. Crear y utilizar un agente de QA',
+                    'ja-JP': '7. QA エージェントを作成して使う',
                     'ko-KR': '7. QA 에이전트 만들고 사용하기',
+                    'pt-BR': '7. Criar e usar um agente de QA',
+                    'zh-CN': '7. 创建并使用 QA 智能体',
                   },
                 },
                 {
                   label: '8. Create and merge the feature PR',
                   link: '/real-world-development/app/8-create-pull-request/',
                   translations: {
+                    'es-ES': '8. Crear y combinar la PR de la funcionalidad',
+                    'ja-JP': '8. 機能の PR を作成してマージする',
                     'ko-KR': '8. 기능 PR 만들고 병합하기',
+                    'pt-BR': '8. Criar e integrar o PR do recurso',
+                    'zh-CN': '8. 创建并合并功能 PR',
                   },
                 },
                 {
                   label: '9. Explore and create canvases',
                   link: '/real-world-development/app/9-canvases/',
                   translations: {
+                    'es-ES': '9. Explorar y crear lienzos',
+                    'ja-JP': '9. キャンバスを確認して作成する',
                     'ko-KR': '9. 캔버스 살펴보고 만들기',
+                    'pt-BR': '9. Explorar e criar canvases',
+                    'zh-CN': '9. 探索并创建画布',
                   },
                 },
                 {
                   label: '10. Wrap-up and next steps',
                   link: '/real-world-development/app/10-review/',
                   translations: {
+                    'es-ES': '10. Repaso y pasos siguientes',
+                    'ja-JP': '10. まとめと次のステップ',
                     'ko-KR': '10. 마무리 및 다음 단계',
+                    'pt-BR': '10. Encerramento e próximos passos',
+                    'zh-CN': '10. 总结与后续步骤',
                   },
                 },
                 {
@@ -801,7 +935,11 @@ export default defineConfig({
                       label: 'Overview',
                       link: '/real-world-development/app/8-foundry-canvas/',
                       translations: {
+                        'es-ES': 'Descripción general',
+                        'ja-JP': '概要',
                         'ko-KR': '개요',
+                        'pt-BR': 'Visão geral',
+                        'zh-CN': '概述',
                       },
                     },
                     {
@@ -823,7 +961,7 @@ export default defineConfig({
                         'ja-JP': '2. エージェントを構築してデプロイする',
                         'ko-KR': '2. 에이전트 빌드 및 배포',
                         'pt-BR': '2. Criar e implantar o agente',
-                        'zh-CN': '2. 构建并部署代理',
+                        'zh-CN': '2. 构建并部署智能体',
                       },
                     },
                     {
@@ -834,7 +972,7 @@ export default defineConfig({
                         'ja-JP': '3. エージェントをサイトに接続する',
                         'ko-KR': '3. 에이전트를 사이트에 연결',
                         'pt-BR': '3. Conectar o agente ao site',
-                        'zh-CN': '3. 将代理连接到网站',
+                        'zh-CN': '3. 将智能体连接到网站',
                       },
                     },
                   ],
@@ -845,56 +983,88 @@ export default defineConfig({
               label: 'GitHub Copilot cloud agent',
               collapsed: true,
               translations: {
+                'es-ES': 'Agente en la nube de GitHub Copilot',
+                'ja-JP': 'GitHub Copilot クラウド エージェント',
                 'ko-KR': 'GitHub Copilot 클라우드 에이전트',
+                'pt-BR': 'Agente na nuvem do GitHub Copilot',
+                'zh-CN': 'GitHub Copilot 云智能体',
               },
               items: [
                 {
                   label: 'Overview',
                   link: '/real-world-development/cloud/',
                   translations: {
+                    'es-ES': 'Descripción general',
+                    'ja-JP': '概要',
                     'ko-KR': '개요',
+                    'pt-BR': 'Visão geral',
+                    'zh-CN': '概述',
                   },
                 },
                 {
                   label: '0. Prerequisites',
                   link: '/real-world-development/cloud/0-prerequisites/',
                   translations: {
+                    'es-ES': '0. Requisitos previos',
+                    'ja-JP': '0. 前提条件',
                     'ko-KR': '0. 사전 준비',
+                    'pt-BR': '0. Pré-requisitos',
+                    'zh-CN': '0. 先决条件',
                   },
                 },
                 {
                   label: '1. Custom instructions',
                   link: '/real-world-development/cloud/1-custom-instructions/',
                   translations: {
+                    'es-ES': '1. Instrucciones personalizadas',
+                    'ja-JP': '1. カスタム指示',
                     'ko-KR': '1. 사용자 지정 지침',
+                    'pt-BR': '1. Instruções personalizadas',
+                    'zh-CN': '1. 自定义指令',
                   },
                 },
                 {
                   label: '2. Cloud agent',
                   link: '/real-world-development/cloud/2-cloud-agent/',
                   translations: {
-                    'ko-KR': '2. GitHub Copilot cloud agent',
+                    'es-ES': '2. Agente en la nube',
+                    'ja-JP': '2. クラウド エージェント',
+                    'ko-KR': '2. GitHub Copilot 클라우드 에이전트',
+                    'pt-BR': '2. Agente na nuvem',
+                    'zh-CN': '2. 云智能体',
                   },
                 },
                 {
                   label: '3. Custom agents',
                   link: '/real-world-development/cloud/3-custom-agents/',
                   translations: {
+                    'es-ES': '3. Agentes personalizados',
+                    'ja-JP': '3. カスタム エージェント',
                     'ko-KR': '3. 사용자 지정 에이전트',
+                    'pt-BR': '3. Agentes personalizados',
+                    'zh-CN': '3. 自定义智能体',
                   },
                 },
                 {
                   label: '4. Managing agents',
                   link: '/real-world-development/cloud/4-managing-agents/',
                   translations: {
+                    'es-ES': '4. Gestionar agentes',
+                    'ja-JP': '4. エージェントを管理する',
                     'ko-KR': '4. 에이전트 모니터링 및 관리',
+                    'pt-BR': '4. Gerenciar agentes',
+                    'zh-CN': '4. 管理智能体',
                   },
                 },
                 {
                   label: '5. Iterating',
                   link: '/real-world-development/cloud/5-iterating/',
                   translations: {
+                    'es-ES': '5. Iterar',
+                    'ja-JP': '5. 反復して改善する',
                     'ko-KR': '5. Copilot 작업 반복 개선',
+                    'pt-BR': '5. Iterar',
+                    'zh-CN': '5. 迭代',
                   },
                 },
               ],
@@ -903,63 +1073,99 @@ export default defineConfig({
               label: 'Visual Studio Code',
               collapsed: true,
               translations: {
+                'es-ES': 'Visual Studio Code',
+                'ja-JP': 'Visual Studio Code',
                 'ko-KR': 'Visual Studio Code',
+                'pt-BR': 'Visual Studio Code',
+                'zh-CN': 'Visual Studio Code',
               },
               items: [
                 {
                   label: 'Overview',
                   link: '/real-world-development/vscode/',
                   translations: {
+                    'es-ES': 'Descripción general',
+                    'ja-JP': '概要',
                     'ko-KR': '개요',
+                    'pt-BR': 'Visão geral',
+                    'zh-CN': '概述',
                   },
                 },
                 {
                   label: '0. Prerequisites',
                   link: '/real-world-development/vscode/0-prerequisites/',
                   translations: {
+                    'es-ES': '0. Requisitos previos',
+                    'ja-JP': '0. 前提条件',
                     'ko-KR': '0. 사전 준비',
+                    'pt-BR': '0. Pré-requisitos',
+                    'zh-CN': '0. 先决条件',
                   },
                 },
                 {
                   label: '1. Custom instructions',
                   link: '/real-world-development/vscode/1-custom-instructions/',
                   translations: {
+                    'es-ES': '1. Instrucciones personalizadas',
+                    'ja-JP': '1. カスタム指示',
                     'ko-KR': '1. 사용자 지정 지침',
+                    'pt-BR': '1. Instruções personalizadas',
+                    'zh-CN': '1. 自定义指令',
                   },
                 },
                 {
                   label: '2. Agent mode',
                   link: '/real-world-development/vscode/2-agent-mode/',
                   translations: {
+                    'es-ES': '2. Modo agente',
+                    'ja-JP': '2. エージェント モード',
                     'ko-KR': '2. 에이전트 모드',
+                    'pt-BR': '2. Modo agente',
+                    'zh-CN': '2. 智能体模式',
                   },
                 },
                 {
                   label: '3. Testing with Playwright MCP',
                   link: '/real-world-development/vscode/3-mcp/',
                   translations: {
+                    'es-ES': '3. Pruebas con MCP de Playwright',
+                    'ja-JP': '3. Playwright MCP でテストする',
                     'ko-KR': '3. Playwright MCP로 기능 테스트하기',
+                    'pt-BR': '3. Testes com o MCP do Playwright',
+                    'zh-CN': '3. 使用 Playwright MCP 测试',
                   },
                 },
                 {
                   label: '4. Custom agents',
                   link: '/real-world-development/vscode/4-custom-agents/',
                   translations: {
+                    'es-ES': '4. Agentes personalizados',
+                    'ja-JP': '4. カスタム エージェント',
                     'ko-KR': '4. 사용자 지정 에이전트',
+                    'pt-BR': '4. Agentes personalizados',
+                    'zh-CN': '4. 自定义智能体',
                   },
                 },
                 {
                   label: '5. Managing agents',
                   link: '/real-world-development/vscode/5-managing-agents/',
                   translations: {
+                    'es-ES': '5. Gestionar agentes',
+                    'ja-JP': '5. エージェントを管理する',
                     'ko-KR': '5. 에이전트 모니터링 및 관리',
+                    'pt-BR': '5. Gerenciar agentes',
+                    'zh-CN': '5. 管理智能体',
                   },
                 },
                 {
                   label: '6. Iterating',
                   link: '/real-world-development/vscode/6-iterating/',
                   translations: {
+                    'es-ES': '6. Iterar',
+                    'ja-JP': '6. 反復して改善する',
                     'ko-KR': '6. GitHub Copilot 작업 반복 개선',
+                    'pt-BR': '6. Iterar',
+                    'zh-CN': '6. 迭代',
                   },
                 },
                 {
@@ -976,7 +1182,11 @@ export default defineConfig({
                       label: 'Overview',
                       link: '/real-world-development/vscode/7-foundry-toolkit/',
                       translations: {
+                        'es-ES': 'Descripción general',
+                        'ja-JP': '概要',
                         'ko-KR': '개요',
+                        'pt-BR': 'Visão geral',
+                        'zh-CN': '概述',
                       },
                     },
                     {
@@ -998,7 +1208,7 @@ export default defineConfig({
                         'ja-JP': 'エージェントを構築してデプロイする',
                         'ko-KR': '에이전트 빌드 및 배포',
                         'pt-BR': 'Criar e implantar um agente',
-                        'zh-CN': '构建并部署代理',
+                        'zh-CN': '构建并部署智能体',
                       },
                     },
                     {
@@ -1009,7 +1219,7 @@ export default defineConfig({
                         'ja-JP': 'エージェントをサイトに接続する',
                         'ko-KR': '사이트에 에이전트 연결',
                         'pt-BR': 'Conectar o agente ao site',
-                        'zh-CN': '将代理连接到网站',
+                        'zh-CN': '将智能体连接到网站',
                       },
                     },
                   ],
